@@ -97,7 +97,7 @@
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner7" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
@@ -166,8 +166,8 @@
                       <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSpinner7" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
@@ -272,8 +272,6 @@
             </Component>
             <Component class="javax.swing.JSeparator" name="jSeparator6">
             </Component>
-            <Component class="javax.swing.JSpinner" name="jSpinner1">
-            </Component>
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
                 <Property name="text" type="java.lang.String" value="7 CANTIDAD DE HIJOS / HIJASTROS AL 50%"/>
@@ -322,6 +320,8 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="10 TOTAL DEDUCCIONES ARTICULO 30"/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="jSpinner7">
             </Component>
           </SubComponents>
         </Container>

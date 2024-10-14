@@ -1544,7 +1544,7 @@
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="jLabel57" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinner7" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="jLabel58" min="-2" max="-2" attributes="0"/>
@@ -1611,8 +1611,8 @@
                       <Component id="jSeparator50" min="-2" pref="10" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel57" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSpinner7" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jSeparator51" min="-2" pref="10" max="-2" attributes="0"/>
@@ -1708,8 +1708,6 @@
             </Component>
             <Component class="javax.swing.JSeparator" name="jSeparator50">
             </Component>
-            <Component class="javax.swing.JSpinner" name="jSpinner1">
-            </Component>
             <Component class="javax.swing.JLabel" name="jLabel57">
               <Properties>
                 <Property name="text" type="java.lang.String" value="56 Cantidad Bonos de productividad"/>
@@ -1750,6 +1748,8 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="60 Cantidad Otros Empleos FALLOS DE CAJA"/>
               </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="jSpinner7">
             </Component>
           </SubComponents>
         </Container>
