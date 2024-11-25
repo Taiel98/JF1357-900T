@@ -4,6 +4,8 @@
  */
 package taiel98.jf1357.t900;
 
+import java.awt.event.KeyEvent;
+
 /**
  *
  * @author taiel
@@ -1618,6 +1620,14 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField3.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField3.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField3KeyTyped
 
     private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
@@ -1628,10 +1638,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField4.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField4.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField4KeyTyped
 
     private void jTextField5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField5KeyTyped
         if(jTextField5.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField5.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField5KeyTyped
@@ -1640,10 +1666,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField6.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField6.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField6KeyTyped
 
     private void jTextField7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField7KeyTyped
         if(jTextField7.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField7.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField7KeyTyped
@@ -1652,10 +1694,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField9.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField9.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField9KeyTyped
 
     private void jTextField10KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField10KeyTyped
         if(jTextField10.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField10.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField10KeyTyped
@@ -1672,10 +1730,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField11.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField11.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField11KeyTyped
 
     private void jTextField13KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField13KeyTyped
         if(jTextField13.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField13.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField13KeyTyped
@@ -1684,10 +1758,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField14.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField14.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField14KeyTyped
 
     private void jTextField15KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField15KeyTyped
         if(jTextField15.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField15.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField15KeyTyped
@@ -1696,10 +1786,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField16.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField16.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField16KeyTyped
 
     private void jTextField17KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField17KeyTyped
         if(jTextField17.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField17.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField17KeyTyped
@@ -1708,10 +1814,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField18.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField18.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField18KeyTyped
 
     private void jTextField20KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField20KeyTyped
         if(jTextField19.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField19.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField20KeyTyped
@@ -1720,10 +1842,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField21.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField21.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField21KeyTyped
 
     private void jTextField22KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField22KeyTyped
         if(jTextField22.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField22.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField22KeyTyped
@@ -1732,10 +1870,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField24.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField24.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField24KeyTyped
 
     private void jTextField28KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField28KeyTyped
         if(jTextField28.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField28.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField28KeyTyped
@@ -1744,10 +1898,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField29.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField29.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField29KeyTyped
 
     private void jTextField30KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField30KeyTyped
         if(jTextField30.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField30.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField30KeyTyped
@@ -1756,10 +1926,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField31.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField31.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField31KeyTyped
 
     private void jTextField32KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField32KeyTyped
         if(jTextField32.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField32.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField32KeyTyped
@@ -1768,10 +1954,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField33.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField33.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField33KeyTyped
 
     private void jTextField34KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField34KeyTyped
         if(jTextField34.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField34.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField34KeyTyped
@@ -1780,10 +1982,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField35.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField35.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField35KeyTyped
 
     private void jTextField36KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField36KeyTyped
         if(jTextField36.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField36.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField36KeyTyped
@@ -1792,10 +2010,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField37.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField37.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField37KeyTyped
 
     private void jTextField38KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField38KeyTyped
         if(jTextField38.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField38.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField38KeyTyped
@@ -1804,10 +2038,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField39.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField39.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField39KeyTyped
 
     private void jTextField40KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField40KeyTyped
         if(jTextField40.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField40.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField40KeyTyped
@@ -1816,10 +2066,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField41.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField41.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField41KeyTyped
 
     private void jTextField42KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField42KeyTyped
         if(jTextField42.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField42.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField42KeyTyped
@@ -1828,10 +2094,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField43.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField43.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField43KeyTyped
 
     private void jTextField44KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField44KeyTyped
         if(jTextField44.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField44.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField44KeyTyped
@@ -1840,10 +2122,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField45.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField45.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField45KeyTyped
 
     private void jTextField46KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField46KeyTyped
         if(jTextField46.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField46.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField46KeyTyped
@@ -1852,10 +2150,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField47.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField47.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField47KeyTyped
 
     private void jTextField48KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField48KeyTyped
         if(jTextField48.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField48.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField48KeyTyped
@@ -1864,10 +2178,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField49.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField49.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField49KeyTyped
 
     private void jTextField50KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField50KeyTyped
         if(jTextField50.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField50.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField50KeyTyped
@@ -1876,10 +2206,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField51.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField51.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField51KeyTyped
 
     private void jTextField52KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField52KeyTyped
         if(jTextField52.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField52.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField52KeyTyped
@@ -1888,10 +2234,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField53.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField53.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField53KeyTyped
 
     private void jTextField54KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField54KeyTyped
         if(jTextField54.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField54.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField54KeyTyped
@@ -1900,10 +2262,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField55.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField55.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField55KeyTyped
 
     private void jTextField56KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField56KeyTyped
         if(jTextField56.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField56.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField56KeyTyped
@@ -1912,10 +2290,26 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField57.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField57.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField57KeyTyped
 
     private void jTextField58KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField58KeyTyped
         if(jTextField58.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField58.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField58KeyTyped
@@ -1924,16 +2318,40 @@ public class Registro3 extends javax.swing.JPanel {
         if(jTextField59.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField59.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField59KeyTyped
 
     private void jTextField60KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField60KeyTyped
         if(jTextField60.getText().trim().length() == 16) {
             evt.consume();
         }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField60.getText().contains("."))){
+            evt.consume();
+        }
     }//GEN-LAST:event_jTextField60KeyTyped
 
     private void jTextField61KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField61KeyTyped
         if(jTextField61.getText().trim().length() == 16) {
+            evt.consume();
+        }
+        
+        char tecla = evt.getKeyChar();
+        
+        if((tecla < '0' || tecla > '9')
+                &&(tecla != KeyEvent.VK_BACK_SPACE)
+                &&(tecla != '.' || jTextField61.getText().contains("."))){
             evt.consume();
         }
     }//GEN-LAST:event_jTextField61KeyTyped
