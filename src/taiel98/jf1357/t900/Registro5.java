@@ -174,6 +174,8 @@ public class Registro5 extends javax.swing.JPanel {
 
         jLabel10.setText("10 TOTAL DEDUCCIONES ARTICULO 30");
 
+        jSpinner7.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -326,6 +328,8 @@ public class Registro5 extends javax.swing.JPanel {
 
         jLabel14.setText("14 REMUNERACION SUJETA A IMPUESTO");
 
+        jSpinner2.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel15.setText("15 CANTIDAD DE HIJOS / HIJASTROS INCAPACITADOS PARA EL TRABAJO al 50%");
 
         jTextField14.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -355,6 +359,8 @@ public class Registro5 extends javax.swing.JPanel {
         jLabel19.setText("18 Deducción Especial Incrementada Segunda parte del penúltimo párrafo del");
 
         jLabel20.setText("inciso c) del artículo 30 de la ley del gravamen");
+
+        jSpinner3.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
 
         jLabel21.setText("19 CANTIDAD DE HIJOS / HIJASTROS al 100%");
 
@@ -485,11 +491,17 @@ public class Registro5 extends javax.swing.JPanel {
 
         jPanel3.setPreferredSize(new java.awt.Dimension(600, 488));
 
+        jSpinner5.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel22.setText("20 CANTIDAD DE HIJOS / HIJASTROS INCAPACITADOS al 100%");
+
+        jSpinner6.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
 
         jLabel23.setText("21 CANTIDAD DE HIJOS ENTRE 18 y 24 AÑOS - EDUCACIÓN al 50%");
 
         jLabel24.setText("22 CANTIDAD DE HIJOS ENTRE 18 y 24 AÑOS - EDUCACIÓN al 100%");
+
+        jSpinner4.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -506,7 +518,7 @@ public class Registro5 extends javax.swing.JPanel {
                         .addComponent(jSpinner5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel23)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 206, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 203, Short.MAX_VALUE)
                         .addComponent(jSpinner6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(jLabel24)

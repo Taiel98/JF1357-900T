@@ -816,6 +816,8 @@ public class Registro4 extends javax.swing.JPanel {
 
         jLabel36.setText("35 COMPENSACIÓN ANÁLOGA");
 
+        jSpinner1.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel37.setText("36 Cantidad Compensación análoga");
 
         jTextField36.addKeyListener(new java.awt.event.KeyAdapter() {

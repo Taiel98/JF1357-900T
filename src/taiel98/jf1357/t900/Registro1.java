@@ -88,6 +88,8 @@ public class Registro1 extends javax.swing.JPanel {
 
         jLabel3.setText("3 PERIODO INFORMADO   (AAAAMM) / (AAAA00)");
 
+        jSpinner1.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel4.setText("4 SECUENCIA    (Original 00 / Rectificativas 01 en adelante)");
 
         jTextField4.setEditable(false);

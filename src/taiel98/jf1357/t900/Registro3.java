@@ -1318,13 +1318,23 @@ public class Registro3 extends javax.swing.JPanel {
 
         jLabel57.setText("56 Cantidad Bonos de productividad");
 
+        jSpinner2.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel58.setText("57 Cantidad de Fallos de caja");
+
+        jSpinner3.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
 
         jLabel59.setText("58 Cantidad de Conceptos de similar naturaleza");
 
+        jSpinner4.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel60.setText("59 Cantadad Otros Empleos BONOS DE PRODUCTIVAD");
 
+        jSpinner5.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel61.setText("60 Cantidad Otros Empleos FALLOS DE CAJA");
+
+        jSpinner7.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -1451,6 +1461,8 @@ public class Registro3 extends javax.swing.JPanel {
         jTabbedPane1.addTab("51-60", jPanel6);
 
         jPanel7.setPreferredSize(new java.awt.Dimension(600, 488));
+
+        jSpinner6.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
 
         jLabel62.setText("61 Cantidad Otros Empleos CONCEPTOS DE SIMILAR NATURALEZA");
 

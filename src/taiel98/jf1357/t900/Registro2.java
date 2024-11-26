@@ -26,6 +26,11 @@ public class Registro2 extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        grupo7 = new javax.swing.ButtonGroup();
+        grupo9 = new javax.swing.ButtonGroup();
+        grupo10 = new javax.swing.ButtonGroup();
+        grupo11 = new javax.swing.ButtonGroup();
+        grupo12 = new javax.swing.ButtonGroup();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
@@ -106,14 +111,18 @@ public class Registro2 extends javax.swing.JPanel {
 
         jLabel4.setText("4 PERIODO TRABAJADO HASTA  (AAAAMMDD");
 
+        jSpinner1.setModel(new javax.swing.SpinnerNumberModel(0, 0, 9, 1));
+
         jLabel5.setText("5 MESES");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1 SIN BENEFICIO", "2 ZONA PATAGÓNICA - INCREMENTO DEL 22%", "3J/P/R Deducción especifica 8 veces los habers minimos del art. 125 ley 24.241", "4 JUBILADO ZONA PATAGÓNICA" }));
 
         jLabel6.setText("6 BENEFICIO");
 
+        grupo7.add(jRadioButton1);
         jRadioButton1.setText("SÍ");
 
+        grupo7.add(jRadioButton2);
         jRadioButton2.setText("NO");
 
         jLabel7.setText("7 ¿Desarrolla actividad de transporte de larga distancia? (NO CT 40/1989)");
@@ -124,8 +133,10 @@ public class Registro2 extends javax.swing.JPanel {
 
         jLabel8.setText("8 ¿El trabajador posee el beneficio promocional de la Ley Nro. 27.424?");
 
+        grupo9.add(jRadioButton3);
         jRadioButton3.setText("NO");
 
+        grupo9.add(jRadioButton4);
         jRadioButton4.setText("SÍ");
 
         jLabel9.setText("9 ¿El trabajador posee el beneficio de la Ley 27.718?");
@@ -249,20 +260,31 @@ public class Registro2 extends javax.swing.JPanel {
 
         jTabbedPane1.addTab("1-9", jPanel1);
 
+        grupo10.add(jRadioButton5);
         jRadioButton5.setText("NO");
 
+        grupo10.add(jRadioButton6);
         jRadioButton6.setText("SÍ");
+        jRadioButton6.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                jRadioButton6StateChanged(evt);
+            }
+        });
 
         jLabel10.setText("10 ¿El trabajador labora bajo el régimen de teletrabajo - Ley 27.555?");
 
+        grupo11.add(jRadioButton7);
         jRadioButton7.setText("NO");
 
+        grupo11.add(jRadioButton8);
         jRadioButton8.setText("SÍ");
 
         jLabel11.setText("11 ¿El trabajador es personal militar en actividad - Ley 19.101?");
 
+        grupo12.add(jRadioButton9);
         jRadioButton9.setText("NO");
 
+        grupo12.add(jRadioButton10);
         jRadioButton10.setText("SÍ");
 
         jLabel12.setText("12 ¿El trabajador desarrolla la actividad de transporte TERRESTRE de larga distancia");
@@ -367,8 +389,17 @@ public class Registro2 extends javax.swing.JPanel {
         }
     }//GEN-LAST:event_jTextField4KeyTyped
 
+    private void jRadioButton6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jRadioButton6StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButton6StateChanged
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup grupo10;
+    private javax.swing.ButtonGroup grupo11;
+    private javax.swing.ButtonGroup grupo12;
+    private javax.swing.ButtonGroup grupo7;
+    private javax.swing.ButtonGroup grupo9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
